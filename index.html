@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Menu Navigation Bar with Logo and Hamburger Menu</title>
 	<link rel="stylesheet" href="gaya.css">
 	<link rel="stylesheet" href="body.css">
@@ -8,20 +10,43 @@
 
 </head>
 <body>
-
-	<!-- The menu navigation bar -->
-	<div class="navbar" id="myNavbar">
-		<div class="logo">
-			<a href="#"><img src="logo.png" alt="Logo"></a>
-		</div>
+	<!-- Header -->
+	<header>
+	  <nav>
 		<a href="#">Home</a>
-		<a href="#">About Us</a>
-		<a href="#">Services</a>
-		<a href="#">Contact Us</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	</div>
-
-
-
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	  </nav>
+	  <button id="hamburger-menu">
+		<i class="fa fa-bars"></i>
+	  </button>
+	</header>
+	
+	<!-- Hero Image -->
+	<section id="hero">
+	  <img src="hero.jpg" alt="Hero Image">
+	  <h1>Welcome to My Website!</h1>
+	  <p>This is my website. I use it to share my thoughts and ideas with the world.</p>
+	</section>
+	
+	<!-- Feature Image and Description -->
+	<section id="feature">
+	  <img src="feature.jpg" alt="Feature Image">
+	  <h2>Featured Content</h2>
+	  <p>This is a featured section of my website. It showcases some of my best work.</p>
+	</section>
+	
+	<!-- Footer -->
+	<footer>
+	  <nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	  </nav>
+	  <p>Copyright &copy; 2023 My Website</p>
+	</footer>
+	
+	
+	
 </body>
 </html>

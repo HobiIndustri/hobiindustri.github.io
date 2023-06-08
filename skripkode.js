@@ -1,11 +1,4 @@
-<script>
-function myFunction() {
-    var x = document.getElementById("myNavbar");
-    if (x.className === "navbar") 
-    {x.className += "responsive"} 
-    else 
-    {x.className = "navbar"}
-}
-</script>
-
-
+document.getElementById("hamburger-menu").addEventListener("click", function() {
+    document.getElementById("nav").toggle();
+  });
+  
